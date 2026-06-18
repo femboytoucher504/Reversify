@@ -1,0 +1,1 @@
+(function(n,a,o){"use strict";const p=[];const RestAPI=o.findByProps("sendMessage","editMessage");if(RestAPI){p.push(a.before("sendMessage",RestAPI,function(args){const m=args[1];if(m&&typeof m.content==="string"&&m.content.length>0){m.content=m.content.split("").reverse().join("");}}));}const s=()=>p.forEach(u=>u());return n.onUnload=s,n})({},vendetta.patcher,vendetta.metro);
