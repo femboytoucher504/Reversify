@@ -1,0 +1,13 @@
+{
+  "id": "reverse-text",
+  "name": "Reversify",
+  "version": "1.0.0",
+  "description": "Reverses your message before sending",
+  "main": "index.js",
+  "authors": [
+    {
+      "name": "femboytoucher504",
+      "id": "0"
+    }
+  ]
+}
